@@ -58,7 +58,6 @@ Static web contents are taken from GitHub and send to the S3 bucket and then dep
 
 ### Set up CloudFront:
 
-* For "Select a delivery method for your content", click "Get Started".
 * From the CloudFront dashboard, click "Create Distribution".
 * For "Select a delivery method for your content", click "Get Started".
 * Under "Origin Domain Name", select the S3 bucket that you just created.
