@@ -48,6 +48,12 @@ Static web contents are taken from GitHub and send to the S3 bucket and then dep
 ```
 * Replace 'NAME_OF_BUCKET' with the bucket that was just created.
 
+### Configure S3 Bucket:
+
+* Click on the "Properties" tab and then click on  "Static website hosting".
+* Click on "Use this bucket to host a website".
+* For both "Index document" and "Error document", enter "index.html" and click "Save".
+
 ### Creating Jenkins Pipeline:
 
 * In Jenkins, Click "Open Blue Ocean" and click "New Pipeline".
